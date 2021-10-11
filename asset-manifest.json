@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/plan/static/css/main.07fcd0fc.chunk.css",
+    "main.js": "/plan/static/js/main.abc368e7.chunk.js",
+    "main.js.map": "/plan/static/js/main.abc368e7.chunk.js.map",
+    "runtime-main.js": "/plan/static/js/runtime-main.d6a52c4a.js",
+    "runtime-main.js.map": "/plan/static/js/runtime-main.d6a52c4a.js.map",
+    "static/js/2.dc797afc.chunk.js": "/plan/static/js/2.dc797afc.chunk.js",
+    "static/js/2.dc797afc.chunk.js.map": "/plan/static/js/2.dc797afc.chunk.js.map",
+    "index.html": "/plan/index.html",
+    "static/css/main.07fcd0fc.chunk.css.map": "/plan/static/css/main.07fcd0fc.chunk.css.map",
+    "static/js/2.dc797afc.chunk.js.LICENSE.txt": "/plan/static/js/2.dc797afc.chunk.js.LICENSE.txt",
+    "static/media/add.83b3027b.svg": "/plan/static/media/add.83b3027b.svg",
+    "static/media/arrow-back.d4d4c518.svg": "/plan/static/media/arrow-back.d4d4c518.svg",
+    "static/media/bulleted-list.97881774.svg": "/plan/static/media/bulleted-list.97881774.svg",
+    "static/media/check-box.387ab465.svg": "/plan/static/media/check-box.387ab465.svg",
+    "static/media/check-list.7d3885b0.svg": "/plan/static/media/check-list.7d3885b0.svg",
+    "static/media/close.4dc23c11.svg": "/plan/static/media/close.4dc23c11.svg",
+    "static/media/code.5cc92593.svg": "/plan/static/media/code.5cc92593.svg",
+    "static/media/drop-down.1f8b4d4b.svg": "/plan/static/media/drop-down.1f8b4d4b.svg",
+    "static/media/format-bold.bf01540d.svg": "/plan/static/media/format-bold.bf01540d.svg",
+    "static/media/format-italic.0e6e2149.svg": "/plan/static/media/format-italic.0e6e2149.svg",
+    "static/media/format-underlined.cc3cff23.svg": "/plan/static/media/format-underlined.cc3cff23.svg",
+    "static/media/heading-one.ee33193f.svg": "/plan/static/media/heading-one.ee33193f.svg",
+    "static/media/heading-two.7113bbb0.svg": "/plan/static/media/heading-two.7113bbb0.svg",
+    "static/media/image.35bbf7b0.svg": "/plan/static/media/image.35bbf7b0.svg",
+    "static/media/menu.9d1732f0.svg": "/plan/static/media/menu.9d1732f0.svg",
+    "static/media/more-vert.f2acbf2e.svg": "/plan/static/media/more-vert.f2acbf2e.svg",
+    "static/media/notebook.87d027b8.svg": "/plan/static/media/notebook.87d027b8.svg",
+    "static/media/numbered-list.2cfb79c1.svg": "/plan/static/media/numbered-list.2cfb79c1.svg",
+    "static/media/quote.12dbccf4.svg": "/plan/static/media/quote.12dbccf4.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d6a52c4a.js",
+    "static/js/2.dc797afc.chunk.js",
+    "static/css/main.07fcd0fc.chunk.css",
+    "static/js/main.abc368e7.chunk.js"
+  ]
+}
