@@ -208,7 +208,7 @@ export default function ToDo(props: ITodoProps) {
           }}
         >
           <button className='btn-secondary w-full mb-1' onClick={() => {}}>
-            Create new note
+            Create new list
           </button>
           {todoLists}
         </div>

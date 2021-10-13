@@ -18,6 +18,8 @@ export default function ToDoElement(props: any) {
   let inputEdit: React.RefObject<HTMLInputElement> = useRef(null);
   //thus is the reference of the todoMenu, modal VW < 768 and dropdown VW > 767
   let todoMenu: React.RefObject<HTMLDivElement> = useRef(null);
+  //props object destructuring to pass their values to the dependecies array of my edit callback
+  let { id, editElement } = props;
 
   //function will be triggered to the document.eventListener
   function handleOutsideClick(e: any) {
@@ -35,10 +37,10 @@ export default function ToDoElement(props: any) {
     }
   }, [showMenu]);
 
-  //once the chnage state changes it submit the change calling the 'editElement' callback
+  //once the change state changes it submit the change calling the 'editElement' callback
   useEffect(() => {
-    props.editElement(props.id, change);
-  }, [change, props]);
+    editElement(id, change);
+  }, [change, id]);
 
   //this function will check if the change is valid and different from the current value, then modify the
   //'change' state
@@ -53,11 +55,13 @@ export default function ToDoElement(props: any) {
         "Insert your changes inside the input box.\nIf you want to delete the task instead, press the 'delete' button."
       );
       setOpenEdit(false);
+      return;
     } else if (val === elem) {
       alert(
         "You didn't make any changes.\nIf you want to change the task description press the 'edit' button, then write the new description inside the input box."
       );
       setOpenEdit(false);
+      return;
     }
 
     //if everyting it's ok make the changes and close the respective menus
