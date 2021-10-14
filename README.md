@@ -46,7 +46,7 @@ This text editor uses the markdown format.
 Main interfaces:
 
 - Notebook: is an equivalent to a folder where an user can group their notes
-- Note: is an interface containing related the content of the note
+- Note: is an interface containing the content of the note
 
 ### [Roadmap](https://github.com/galearez/plan/projects/1 'Roadmap')
 
